@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock - Paper - Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    
+
+</head>
+<body>
+    <h1 class="head">ROCK - PAPER - SCISSORS</h1>
+    <div class="winnerDiv">
+        <h2 class="winner"></h2>
+    </div>
+    <button class="reset" onclick="restartgame()">play again!!!</button>
+    <div class="playerselection">
+        <h3 class="playerchoice"></h3>
+        <h3 class="playerscore">Your score: 0</h3>
+        <div class="pimages">
+            <img src="./images/rock.png" alt="Rock" class="pimg" id="rock"/>
+            <img src="./images/paper.png" alt="Paper" class="pimg" id="paper" />
+            <img src="./images/scissors.png" alt="Scissors" class="pimg" id="scissors"/>
+        </div>
+    </div>
+    <div class="computerselection">
+        <h3 class="computerchoice"></h3>
+        <h3 class="computerscore">Computer score: 0 </h3>
+        <div class="cimages">
+            <img src="./images/rock.png" alt="Rock" class="rock" >
+            <img src="./images/paper.png" alt="Paper" class="paper">
+            <img src="./images/scissors.png" alt="Scissors" class="scissors">
+        </div>
+    </div>
+    <div class="score">
+        <h3 class="tie">Rounds tied : 0</h3>
+    </div>
+</body>
+<script src="main.js"> </script>
+</html>
